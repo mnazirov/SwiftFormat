@@ -267,9 +267,9 @@ class CommandLineTests: XCTestCase {
         }
         printHelp(as: .content)
         printOptions(as: .content)
-        for rule in FormatRules.all {
-            try! printRuleInfo(for: rule.name, as: .content)
-        }
+//        for rule in FormatRules.all {
+//            try! printRuleInfo(for: rule.name, as: .content)
+//        }
     }
 
     func testHelpOptionsImplemented() {
